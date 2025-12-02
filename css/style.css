@@ -114,6 +114,7 @@ list-style: none;
 
 .section-teamw {
   background-color: #f4f4fd;
+  padding:120px 0 120px 0;
 }
 
 .section-team {
@@ -124,10 +125,13 @@ list-style: none;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom:72px;
 }
 
-.list-item {
+.team-list-item {
   background-color: #ffffff;
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .worker {
@@ -137,6 +141,8 @@ list-style: none;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align:center;
+  margin-bottom:8px;
 }
 
 .worker-description {
@@ -144,6 +150,7 @@ list-style: none;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align:center;
 }
 
 
@@ -151,6 +158,8 @@ list-style: none;
   list-style: none;
   font-size: 0;
   text-align: center;
+  display:flex;
+  gap:24px;
 }
 
 
@@ -174,15 +183,19 @@ list-style: none;
   gap: 24px;
 }
 
+.section-portfolio{
+  padding-top:120px;
+  padding-bottom:120px;
+}
 
-
-.section-portfolio {
+.title-portfolio {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom:72px;
 }
 
 .portfolio-title {
@@ -204,6 +217,11 @@ list-style: none;
   list-style: none;
   font-size: 0;
   text-align: center;
+  display:flex;
+  flex-wrap:wrap;
+  column-gap:24px;
+  row-gap: 48px;
+
 }
 
 
@@ -301,5 +319,22 @@ list-style: none;
 }
 
 .advantages-list-item{
-  width: calc((100% - 72px) / 4)
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.worker-container{
+  padding:32px 0 32px 0;
+
+}
+
+.portofolio-list-item{
+   width: calc((100% - 48px) / 3);
+}
+
+.app-container{
+  padding:32px 16px;
+  border:1px solid #e7e9fc;
+  border-top:none;
+  margin-bottom:8px;
+  
 }
