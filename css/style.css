@@ -60,6 +60,7 @@ list-style: none;
 
 .section-title {
   background-color: #2e2f42;
+ padding:188px 0 188px 0;
 }
 
 .page-title {
@@ -68,7 +69,6 @@ list-style: none;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  padding:188px 0 188px 0;
   max-width:496px;
 }
 
@@ -88,7 +88,7 @@ list-style: none;
   height:56px;
   border:none;
   border-radius:4px;
-  
+
 }
 
 .button:hover,
@@ -102,6 +102,7 @@ list-style: none;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom:8px;
 }
 
 .section-text {
@@ -154,7 +155,7 @@ list-style: none;
 
 
 
-.section-advantages {
+.title-advantages {
   background-color: #f4f4fd;
   font-size: 36px;
   line-height: 1.11;
@@ -169,6 +170,8 @@ list-style: none;
   list-style: none;
   font-size: 0;
   text-align: center;
+  display:flex;
+  gap: 24px;
 }
 
 
@@ -277,4 +280,26 @@ list-style: none;
 
 .logo{
   display:inline-block;
+}
+
+.section-advantages{
+    padding:120px 0 120px 0;
+
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  white-space: nowrap;
+}
+
+.advantages-list-item{
+  width: calc((100% - 72px) / 4)
 }
