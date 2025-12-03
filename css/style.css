@@ -3,7 +3,9 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-
+img{
+  display:block;
+}
 a {
 text-decoration: none;
 }
@@ -20,7 +22,7 @@ list-style: none;
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  margin:76px;
+  margin-right:76px;
 } 
 
 .nav-logo-part {
@@ -241,6 +243,7 @@ list-style: none;
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  margin-bottom:16px;
 }
 
 .logo-part {
@@ -260,7 +263,7 @@ list-style: none;
 
 }
 
-.container header-container{
+.container-header{
   display:flex;
   width:1158px;
   margin:0;
@@ -275,15 +278,10 @@ list-style: none;
 
 .nav-menu{
   display:flex;
+  gap:40px;
 }
 
-.nav-menu li {
-    margin-right: 40px;
-}
 
-.nav-menu li:last-child {
-    margin-right: 0;
-}
 
 .nav-address-list{
   display:flex;
