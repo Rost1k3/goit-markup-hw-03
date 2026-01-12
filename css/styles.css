@@ -12,6 +12,7 @@ text-decoration: none;
 ul {
 list-style: none;
 padding-left: 0;
+margin: 0;
 }
 h1,h2,h3 {
   margin:0;
@@ -71,6 +72,11 @@ p {
   gap:40px;
 }
 
+.nav-menu a {
+  display: block;
+  padding: 24px 0;
+}
+
 .nav-contacts {
   font-size: 16px;
   line-height: 1.5;
@@ -120,6 +126,7 @@ p {
   align-items:center;
   margin: 0 auto;
   margin-top:48px; 
+  padding: 16px 32px;
 
 } 
 
@@ -297,6 +304,7 @@ p {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width:264px; 
 }
 
 .page-header{
